@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="27" failures="0" name="mx.unam.ciencias.edd.test.TestLista" time="0.182" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/rrb31/Escritorio/Code/practica1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\rrb31\Escritorio\Code\practica1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\rrb31\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Users/rrb31/Downloads/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\rrb31\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rrb31\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jre1.8.0_202;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Git\cm;C:\Users\rrb31\Downloads\apache-maven-3.6.3\bin&quot;;C:\Users\rrb31\Downloads\apache-maven-3.6.3\bin;C:\Users\rrb31\OneDrive\Documentos\PHP;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Users\rrb31\AppData\Local\Microsoft\WindowsApps;C:\Users\rrb31\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\PhpStorm 2020.1\bin;C:\Users\rrb31\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Users/rrb31/Downloads/apache-maven-3.6.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Users/rrb31/Downloads/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\rrb31"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="rrb31"/>
+    <property name="java.class.path" value="C:/Users/rrb31/Downloads/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\rrb31\Downloads\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testAgregaFinal" time="0.063"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testElimina" time="0.005"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testEsVacia" time="0.006"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testEliminaPrimero" time="0.005"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testIteradorHasNext" time="0.004"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testGet" time="0.003"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testAgregaInicio" time="0.004"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testCopia" time="0.003"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testToString" time="0.061"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testIteradorStart" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testGetLongitud" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testEliminaUltimo" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testGetPrimero" time="0.002"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testContiene" time="0"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testIteradorNext" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testIteradorPrevious" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testIteradorEnd" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testReversa" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testGetElementos" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testIteradorHasPrevious" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testIndiceDe" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testAgrega" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testEquals" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testLimpia" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testGetUltimo" time="0.001"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testInserta" time="0.012"/>
+  <testcase classname="mx.unam.ciencias.edd.test.TestLista" name="testConstructor" time="0.001"/>
+</testsuite>
